@@ -11,6 +11,11 @@ def ack(m, n)
 	end
 end
 
+class Ack
+	def main
+	end
+end
+
 if __FILE__ == $0 then
 	# puts "A(2, 2) = #{ack(2, 2)}"
 	puts "A(4, 1) = #{ack(4, 1)}"
